@@ -13,7 +13,7 @@ function onPageLoaded(responseText) {
 
     let anchors = $('a', e);
     for (let a of anchors) {
-        if (a.href.includes("get.aspx?action=recordgbx&")) {
+        if (a.href.includes("get.aspx?action=trackgbx&")) {
             chrome.runtime.sendMessage({
                 download: a.href
             });
