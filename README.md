@@ -1,4 +1,4 @@
-# TMXDownloader
+# TMXTrackDownloader
 ## Massively download tracks from the TMX database
 
 This is an extension for Chrome that was used to automatically download
